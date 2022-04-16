@@ -2,25 +2,49 @@ body {
   background-color: #e5e5e5;
 }
 
-
 h1 {
     color: midnightblue;
+    font-family: 'Speeday';
+    padding-left: 150px;
+    padding-top: 5px;
+    font-size: 50px;
+    padding-bottom: none;
+    margin-bottom: -10px;
   }
 
+h2 {
+  font-family: 'Helvetica Neue';
+    font-weight: bold;
+  padding-left: 150px;
+  padding-top: 0px;
 
+}
 h3 {
-  color: 
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  color: #0068b5;
+  padding-left: 150px;
+  padding-bottom: 50px;
+}
+p {
+  font-family: 'helvetica neue';
+  font-weight: bold;
+  color: black;
+  padding-left: 150px;
 }
 
+.firstparagraph::first-letter {
+  font-size: 150%;
+}
 
-p {
-    color: black;
-  }
+.reflectiontext {
+  color: orange;
+  letter-spacing: 0px;
+  text-indent: 20px;
+  padding-left: 150px;
+}
 
-
-
-.footer {
-  position: fixed;
+footer {
   width: 100%;
   color: maroon;
   text-align: center;

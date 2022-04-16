@@ -1,12 +1,21 @@
+a {
+
+    text-decoration: none;
+}
+
+
+
 ul{
  
-    text-align: center;
-    
+    text-align: center;    
 }
     
-    ul li {
+ul li {
 
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
     list-style-type: none;
+    text-decoration: none;
     padding: 25px;
     margin: auto;
     border-style: none;
