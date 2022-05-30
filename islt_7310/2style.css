@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-flow: column;
+    grid-template-areas;
+        "Image Header Image"
+        "Image Navigation Image"
+        "Footer Footer"
+
+}
+
+h1{
+    font-family: 'SnasmW00-Italic';
+    text-align: center;
+    font-size: 75px;
+    padding: 20px;
+}
+
+
+li {
+    list-style-type: none;
+    font-family: 'Speeday';
+    text-align: center;
+    display: block;
+
+}
+
+.navigation {
+    color: teal;
+    padding: 100px;
+    background: teal;
+    display: block;
+}
+

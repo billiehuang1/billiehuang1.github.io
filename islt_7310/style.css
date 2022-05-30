@@ -1,6 +1,60 @@
+@media screen and (max-width:850px) { 
+  main { 
+      background-color:green; 
+  } 
+}
+@media screen and (max-width:350px) { 
+  main { 
+      background-color:red; 
+  } 
+}   
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: blue;
+  grid-template-rows: 5fr 20fr 5fr;
+  grid-gap: 10px;
+  height: 720px;
+  grid-template-rows: 15% 15% 60% 10%;
+  grid-auto-flow: row;
+  gap: 100px 50px;
+}
+
+.name {
+  display: grid; 
+}
+
+
+header {
+  text-align: center;
+  background-color: black;
+  position: absolute;
+  top: 15px;
+  left: 450px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+}
+
+
+.navbar {
+  float: left;
+  padding: 0px;
+
+
+}
+
 body {
   background-color: #e5e5e5;
 }
+
+.name
+{  
+  text-align: center;
+  color: black;
+  float: left;
+}
+
 
 h1 {
     color: midnightblue;
@@ -14,11 +68,11 @@ h1 {
 
 h2 {
   font-family: 'Helvetica Neue';
-    font-weight: bold;
+  font-weight: bold;
   padding-left: 150px;
   padding-top: 0px;
-
 }
+
 h3 {
   font-family: 'Helvetica Neue';
   font-weight: bold;
@@ -26,6 +80,7 @@ h3 {
   padding-left: 150px;
   padding-bottom: 50px;
 }
+
 p {
   font-family: 'helvetica neue';
   font-weight: bold;
@@ -49,5 +104,9 @@ footer {
   bottom: 0;
   width: 100%;
   color: maroon;
+  text-align: center;
+}
+
+blockquote {
   text-align: center;
 }
