@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 60% 10%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Header"
+        "Image Navigation Image"
+        "Footer Footer";
+}
+
+.header {
+    grid-area: Header;
+    text-align: center;
+    color: black;
+    font-family: 'SnasmW00-Italic';
+    text-align: center;
+    font-size: 75px;
+    color: black;
+}
+
+.navigation {
+    grid-area: Navigation;
+    background-color: black;
+    text-align: center;
+    font-size: 500%;
+}
+
+.image {
+    grid-area: Image;
+}
+
+.content {
+    grid-area: Content;
+    margin-left: 2em;
+    font-size: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    color: black;
+
+}
+
+
+h1{
+    font-family: 'SnasmW00-Italic';
+    text-align: center;
+    font-size: 75px;
+    padding: 20px;
+    color: black;
+}
+
+
+li {
+    list-style-type: none;
+    font-family: 'Speeday';
+    text-align: center;
+    display: block;
+
+}
+
+.navigation {
+    color: teal;
+    padding: 100px;
+    background: teal;
+    display: block;
+}
+
