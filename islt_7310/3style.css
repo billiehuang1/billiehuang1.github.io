@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: lightgreen;
+
+}
+
+.header {
+    grid-area: Header;
+    text-align: center;
+    color: black;
+}
+
+h1 {
+    font-family: 'SnasmW00-Italic';
+    text-align: center;
+    font-size: 100px; 
+    padding: 20px;
+}
+
+.navigation {
+    grid-area: Navigation;
+    text-align: center;
+    font-size: 500%;
+    text-decoration: none;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Speeday';
+    text-align: center;
+    display: block;
+}
+
+.footer {
+    grid-area: Footer;
+    text-align: center;
+    float: bottom;
+    grid-column-start: 2;
+}
