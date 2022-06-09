@@ -39,7 +39,7 @@ a:hover {
 }
 
 .navigation {
-    position:fixed;
+    position: fixed;
     grid-column-start: 1;
     text-align: left;
     padding-left: 75px;
@@ -85,6 +85,15 @@ h1 {
 
 .footer a:hover {
     color: grey;
+}
+
+.footer img {
+    width: 75px;
+    padding-bottom: 8px;
+}
+
+.footer img:hover {
+    opacity: 85%;
 }
 
 .container {

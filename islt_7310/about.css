@@ -25,12 +25,20 @@
     }
 
     .navigation, 
-    .navigation .navbar {
+    .navigation .navbar, 
+    img, 
+    .container .photo p, 
+    .container h4 {
         display: none;
     }
     
     .header {
         margin-top: none;
+        padding-top: none;
+        padding-bottom: none;
+    }
+
+    .container h4 {
         padding-top: none;
     }
 
@@ -54,7 +62,7 @@
     }
 
     .container .about blockquote {
-        font-size: 50px;
+        font-size: 40px;
         line-height: 45px;
         padding-top: 20px;
         padding-bottom: 10px;
@@ -65,6 +73,8 @@
     }
 
 }
+
+
 
 
 * {
@@ -115,6 +125,7 @@ body {
 }
 
 .navigation {
+    position: fixed;
     grid-column-start: 1;
     text-align: left;
     padding-left: 75px;
@@ -146,7 +157,7 @@ h1 {
     float: bottom;
     grid-row-start: 6;
     font-family: 'HelveticaNeue-Bold';
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .footer a {
@@ -157,24 +168,49 @@ h1 {
     color: grey;
 }
 
+.footer img {
+    width: 75px;
+    padding-bottom: 8px;
+}
+
+.footer img:hover {
+    opacity: 85%;
+}
+
 .container {
     grid-column-start: 2;
     grid-column-end: 5;
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 15px;
+    padding-top: 75px;
+    
 }
-
 
 .container h3 {
     font-family: 'HelveticaNeue-Bold';
     font-size: 35px;
 }
 
+.container h4 {
+    font-family: 'Arial Black';
+    letter-spacing: -5px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container .photo img {
+    width: 550px;
+    text-align: center;
+}
+
 .container p {
     font-family: 'HelveticaNeue-Bold';
     text-align: justify;
+}
+
+.container .photo p {
+    padding-left: 200px;
 }
 
 .container blockquote {
@@ -184,6 +220,8 @@ h1 {
     font-family: 'Arial Black';
     line-height: 70px;
 }
+
+
 
 
 

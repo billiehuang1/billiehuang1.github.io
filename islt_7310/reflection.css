@@ -5,7 +5,7 @@
 
     font-family: Snasm;
     src: url("SnasmW00-Italic.ttf");
-    
+
 }
 
 * {
@@ -55,6 +55,7 @@ body {
 }
 
 .navigation {
+    position: fixed;
     grid-column-start: 1;
     text-align: left;
     padding-left: 75px;
@@ -89,20 +90,31 @@ h1 {
 }
 
 .footer a {
-    color: white;
+    color: black;
 }
 
 .footer a:hover {
-    color: lightblue;
+    color: grey;
+}
+
+.footer img {
+    width: 75px;
+    padding-bottom: 8px;
+}
+
+.footer img:hover {
+    opacity: 85%;
 }
 
 .container {
     grid-column-start: 2;
     text-align: justify;
+    padding-top: 100px;
 }
 
 .container h3 {
     font-family: 'HelveticaNeue-Bold';
+    
 }
 
 .container p {
