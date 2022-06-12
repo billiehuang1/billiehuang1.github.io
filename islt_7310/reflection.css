@@ -1,12 +1,19 @@
+
 @font-face { 
 
-    font-family: Speeday;
+    font-family: 'Speeday';
     src: url("Speeday-Bold-FFP.ttf");
 
-    font-family: Snasm;
-    src: url("SnasmW00-Italic.ttf");
+    font-family: 'Snasm';
+    src: url("Snasm-W00-Italic.ttf");
+
+    font-family: 'Inter';
+    src: url("Inter-ExtraBold.otf");
 
 }
+
+
+
 
 * {
     padding: 0px;
@@ -31,27 +38,23 @@ a:active {
     text-decoration: underline;
 }
 
-.navbar a:active {
-    color: pink;
-}
-
 .navigation .navbar ul li a:active {
-    color: pink;
+    text-decoration: underline;
 }
 
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 100vh;
 }
 
 .header {
     grid-column-start: 2;
+    grid-column-end: 5;
     text-align: center;
     padding-top: 50px;
     text-decoration: none !important;
-    color: green;
 }
 
 .navigation {
@@ -78,15 +81,70 @@ h1 {
     font-size: 40px;
 }
 
-.footer 
-{
+.photo {
+    padding-left: none;
+    margin-left: none;
+    padding-left: 50px;
     grid-column-start: 2;
+    padding-top: 75px;
+
+}
+
+.photo img {
+    width: 457px;
+    float: left;
+    padding-left: none;
+    margin-left: none;
+ 
+}
+
+.container {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.container h3 {
+    font-family: 'Arial Black';
+    letter-spacing: -2px;
+    font-size: 48px;
+    text-align: left;
+}
+
+.container p {
+    font-family: 'HelveticaNeue-Bold';
+    text-align: justify;
+}
+
+.container .favs {
+    padding-top: 65px;
+}
+
+.container blockquote {
+    padding-top: 75px;
+    font-size: 75px;
+    padding-bottom: 50px;
+    font-family: 'Arial Black';
+    line-height: 70px;
+}
+
+.container .links a {
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 25px;
+}
+
+.footer {
+    grid-column-start: 2;
+    grid-column-end: 5;
     text-align: center;
     padding-top: 50px;
     float: bottom;
     grid-row-start: 6;
     font-family: 'HelveticaNeue-Bold';
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .footer a {
@@ -105,27 +163,6 @@ h1 {
 .footer img:hover {
     opacity: 85%;
 }
-
-.container {
-    grid-column-start: 2;
-    text-align: justify;
-    padding-top: 100px;
-}
-
-.container h3 {
-    font-family: 'HelveticaNeue-Bold';
-    
-}
-
-.container p {
-    font-family: 'HelveticaNeue-Medium';
-}
-
-.container blockquote {
-    padding-top: 100px;
-    font-size: 75px;
-}
-
 
 
 

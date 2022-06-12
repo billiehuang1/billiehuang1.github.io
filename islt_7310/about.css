@@ -7,6 +7,8 @@
     font-family: 'Snasm';
     src: url("Snasm-W00-Italic.ttf");
 
+    font-family: 'Inter';
+    src: url("Inter-ExtraBold.otf");
 
 }
 
@@ -77,6 +79,7 @@
 
 
 
+
 * {
     padding: 0px;
     margin: 0px;
@@ -100,12 +103,8 @@ a:active {
     text-decoration: underline;
 }
 
-.navbar a:active {
-    color: pink;
-}
-
 .navigation .navbar ul li a:active {
-    color: pink;
+    text-decoration: underline;
 }
 
 body {
@@ -121,7 +120,6 @@ body {
     text-align: center;
     padding-top: 50px;
     text-decoration: none !important;
-    color: green;
 }
 
 .navigation {
@@ -146,6 +144,68 @@ h1 {
     font-family: 'SnasmW00-Italic';
     text-decoration: none !important;
     font-size: 40px;
+}
+
+.container {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.container h3 {
+    font-family: 'Arial Black';
+    letter-spacing: -2px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container h4 {
+    font-family: 'Arial Black';
+    font-size: 35px;
+    letter-spacing: -1px;
+
+}
+
+.container h5 {
+    font-family: 'Arial Black';
+    font-size: 25px;
+    letter-spacing: -1px;
+    text-align: center;
+
+}
+
+.container .photo img {
+    width: 550px;
+    text-align: center;
+}
+
+.container p {
+    font-family: 'HelveticaNeue-Bold';
+    text-align: justify;
+}
+
+.container .photo p {
+    padding-left: 115px;
+}
+
+.container .favs {
+    padding-top: 65px;
+}
+
+.container blockquote {
+    padding-top: 75px;
+    font-size: 75px;
+    padding-bottom: 50px;
+    font-family: 'Arial Black';
+    line-height: 70px;
+}
+
+.container .links a {
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 25px;
 }
 
 .footer 
@@ -176,54 +236,6 @@ h1 {
 .footer img:hover {
     opacity: 85%;
 }
-
-.container {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    text-align: justify;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 75px;
-    
-}
-
-.container h3 {
-    font-family: 'HelveticaNeue-Bold';
-    font-size: 35px;
-}
-
-.container h4 {
-    font-family: 'Arial Black';
-    letter-spacing: -5px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.container .photo img {
-    width: 550px;
-    text-align: center;
-}
-
-.container p {
-    font-family: 'HelveticaNeue-Bold';
-    text-align: justify;
-}
-
-.container .photo p {
-    padding-left: 200px;
-}
-
-.container blockquote {
-    padding-top: 50px;
-    font-size: 75px;
-    padding-bottom: 50px;
-    font-family: 'Arial Black';
-    line-height: 70px;
-}
-
-
-
-
 
 
 
