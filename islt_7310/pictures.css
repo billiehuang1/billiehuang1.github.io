@@ -12,9 +12,6 @@
 
 }
 
-
-
-
 * {
     padding: 0px;
     margin: 0px;
@@ -81,61 +78,86 @@ h1 {
     font-size: 40px;
 }
 
-.photo {
-    padding-left: none;
-    margin-left: none;
-    padding-left: 35px;
-    grid-column-start: 2;
-    padding-top: 75px;
-
-}
-
-.photo img {
-    width: 457px;
-    float: left;
-    padding-left: none;
-    margin-left: none;
-    padding-bottom: 35px;
- 
-}
-
 .container {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 5;
     text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 50px;
+    grid-row-start: 3;
 }
 
-.container h3 {
+.container h2 {
     font-family: 'Arial Black';
     letter-spacing: -2px;
     font-size: 48px;
-    text-align: left;
+    text-align: center;
 }
 
-.container p {
-    font-family: 'HelveticaNeue-Bold';
-    text-align: justify;
-    padding-bottom: 35px;
-}
 
-.container .favs {
-    padding-top: 65px;
-}
-
-.container blockquote {
-    padding-top: 75px;
-    font-size: 75px;
-    padding-bottom: 50px;
+.container h3 {
     font-family: 'Arial Black';
-    line-height: 70px;
+    font-size: 35px;
+    letter-spacing: -1px;
+    text-align: center;
 }
 
-.container .links a {
-    font-family: 'HelveticaNeue-Bold';
+.container h4 {
+    font-family: 'Arial Black';
     font-size: 25px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Arial';
+    font-size: 15px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: black;
+}
+
+.container .text h2 {
+    color: black;
+    font-size: 45px;
+    padding-bottom: none;
+}
+
+.container .text h5 {
+    color: #2c2151;
+    font-size: 25px;
+    font-family: 'Arial Black';
+    line-height: 40px;
+    text-align: justify;
+    text-align-last: center;
+    padding-bottom: none;
+}
+
+.container .text p {
+    text-align: center;
+    padding-top: none;
+    font-family: "HelveticaNeue-Bold";
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+
+.gallerytext {
+    padding-top: 50px;
+    float: bottom;
+    padding-bottom: none;
+}
+
+.gallerytext p {
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #8f53e5;
 }
 
 .footer {
@@ -165,6 +187,3 @@ h1 {
 .footer img:hover {
     opacity: 85%;
 }
-
-
-
