@@ -1,0 +1,288 @@
+@font-face { 
+    font-family: Speeday;
+    src: url("Speeday-Bold-FFP.ttf");
+
+    font-family: Snasm;
+    src: url("SnasmW00-Italic.ttf");
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: white;    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.header {
+    margin-top:2.5vh;
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 30.5px;
+    text-decoration: none !important;
+    color: green;
+}
+
+.navigation {
+    position: fixed;
+    grid-column-start: 1;
+    text-align: left;
+    padding-left: 75px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30.5px;
+    font-family: 'HelveticaNeue-Bold';
+    mix-blend-mode: difference;
+    font-size: 20px;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation a:hover {
+    color: grey;
+}
+
+h1 {
+    font-family: 'SnasmW00-Italic';
+    text-decoration: none !important;
+    font-size: 40px;
+    padding-bottom: none;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.text h2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.text h3 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+h2 {
+    font-family: 'Arial-Black';
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 50px;
+    color: black;
+    padding-top: 55px;
+    padding-bottom: none;
+}
+
+h3 {
+    font-family: 'Arial-Black';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+    line-height: 35px;
+    color: rgb(158, 158, 158);
+}
+
+.container {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.container p {
+    font-family: 'HelveticaNeue-Bold';
+    text-align: justify;
+}
+
+.container img {
+    padding: 50px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5vw;
+    padding-left:20vw;
+    padding-right:20vw;
+    padding-bottom: none;
+    margin: none;
+    padding-top: 20px;
+}
+
+.gallery img {
+    margin: auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+} 
+
+.gallerytext {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.gallerytext p {
+    font-family: 'HelveticaNeue-Medium';
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+.pdf {
+    padding: 50px;
+}
+
+
+.pdf h1 {
+    text-align: center;
+    font-family: 'HelveticaNeue-Bold';
+    padding-bottom: 10px;
+}
+
+.pdf p {
+    text-align: center;
+    font-family: 'HelveticaNeue-Medium';
+    padding-bottom: 50px;
+}
+
+.smalltext {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.smalltext h1 {
+    text-align: center;
+    font-family: 'HelveticaNeue-Bold';
+    padding-bottom: 10px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.smalltext p {
+    text-align: center;
+    font-family: 'HelveticaNeue-Medium';
+    padding-bottom: 0px;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.projecttext {
+    margin: none;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+.projecttext h5 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.header h2 {
+    padding-top: 0px;
+    padding-bottom: none;
+    margin: none;
+}
+
+h5 {
+    font-family: 'Arial-Black';
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: -1px;
+}
+
+.video {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.video h1 {
+    text-align: center;
+    font-family: 'HelveticaNeue-Bold';
+    padding-bottom: 10px;
+}
+
+.video p {
+    text-align: center;
+    font-family: 'HelveticaNeue-Medium';
+    padding-bottom: 30px;
+}
+
+.footer {
+    grid-column-start: 2;
+    text-align: center;
+    float: bottom;
+    grid-row-start: 6;
+    font-family: 'HelveticaNeue-Bold';
+    padding-bottom: 50px;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer a:hover {
+    color: grey;
+}
+
+.footer img {
+    width: 75px;
+    padding-bottom: 8px;
+}
+
+.flyer {
+    padding: 35px;
+}
+
+.flyer img {
+    border: 5px solid black;
+}
+
+.flyer h1 {
+    text-align: center;
+    font-family: 'HelveticaNeue-Bold';
+    padding-bottom: 10px;
+}
+
+.flyer p {
+    text-align: center;
+    font-family: 'HelveticaNeue-Medium';
+    padding-bottom: 30px;
+}
+
+.footer img:hover {
+    opacity: 85%;
+}
+
+
+
